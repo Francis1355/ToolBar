@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+
+    <item
+        android:id="@+id/hola"
+        app:showAsAction="always"
+        android:title="Hola"
+        android:icon="@drawable/ic_audiotrack_black_24dp"
+
+        />
+    <item
+        android:id="@+id/adios"
+        app:showAsAction="never"
+        android:title="Adios"
+        android:icon="@drawable/ic_camera_alt_black_24dp"
+        />
+
+    <item
+        android:id="@+id/inicio"
+        app:showAsAction="ifRoom"
+        android:title="Inicio"
+        android:icon="@drawable/ic_time_to_leave_black_24dp"
+        />
+    <item
+        android:id="@+id/fin"
+        app:showAsAction="withText"
+        android:title="Fin"
+        android:icon="@drawable/ic_public_black_24dp"
+
+        />
+
+
+</menu>
